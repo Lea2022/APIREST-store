@@ -1,0 +1,57 @@
+# Ignorar archivos del sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar entorno virtual
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Ignorar archivos de configuración sensibles
+*.env
+settings_local.py
+
+# Ignorar archivos de logs
+*.log
+
+# Archivos relacionados a IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# Ignorar dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar archivos de compilación
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Archivos de cobertura de pruebas
+.coverage
+htmlcov/
+
+# Documentación generada
+*.rst
+docs/_build/
+
+# Node Modules (si trabajas con frontend también)
+node_modules/
+
+# Ignorar archivos temporales
+*.tmp
+*.bak
+*.orig
+
+# Ignorar archivos de Django específicos
+media/
+staticfiles/
