@@ -1,9 +1,24 @@
-# 🛒 API REST de Gestión de Productos - Mi Tienda
+# 🛒 Product Management REST API - My Store
+# 🛒API REST de Gestión de Productos - Mi Tienda
+
+This is a **RESTful API** developed with **Django** and **Django Rest Framework (DRF)** to manage products in an online store. The project includes basic functionalities such as CRUD (Create, Read, Update, Delete) for products, token authentication, and interactive documentation.
 
 Esta es una **API RESTful** desarrollada con **Django** y **Django Rest Framework (DRF)** para gestionar productos en una tienda en línea. El proyecto incluye funcionalidades básicas como CRUD (Crear, Leer, Actualizar, Eliminar) para productos, autenticación con tokens y documentación interactiva.
 
 ---
+## 📋 **Features**
 
+- **Product CRUD**: Create, query, update and delete products.
+- **Authentication**:
+- Authentication token using `DRF` and **JWT**.
+- **Interactive documentation**:
+- Swagger UI (friendly user interface).
+- Redoc.
+- **Product filtering, searching and sorting**.
+- **Automated testing** with Django TestCase.
+- **Secure handling of sensitive variables** with `.env`.
+- **Pagination** to improve API performance.
+  
 ## 📋 **Características**
 
 - **CRUD de productos**: Crear, consultar, actualizar y eliminar productos.
